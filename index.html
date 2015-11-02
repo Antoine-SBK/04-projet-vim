@@ -1,0 +1,73 @@
+<!Doctype html>
+
+<head> <h1> <b> <u> Cheat sheet Vim </u> </b> </h1>
+<link href="style.css" rel="stylesheet" type="Text/css">
+    <title>cheat sheet vim</title>
+ </head>
+
+  <body>  <h2> <b> <u> Commande de base </u> </b> </h2>
+
+<p>  <b> echap </b> = revenir en mode normal </p>
+
+<p>  <b> :wq </b> = enregister et quitter </p>
+<p>  <b> :q! </b> = quitter sans sauvegarder </p>
+
+<p> <b> i </b> = inserer du texte avant le curseur </p>
+<p> <b> a </b> = inserer du texte apres le curseur </p>
+
+<p> <b> dw </b> = effacer un mot (placer curseur au debut du mot) </p>
+<p> <b> de </b> = effacer le mots (nefacer pas le dernier caractere) </p>
+<p> <b> d$ </b> = effacer la fin de la phrase (apres le curseur) </p>
+<p> <b> d2w </b> = effacer les mots en majuscule </p>
+<p> <b> dd </b> = effacer une ligne complette </p>
+<p> <b> 2dd </b> = effacer deux lignes </p>
+<p> <b> (nombre)dd </b>= effacer autant de ligne que necessaire </p>
+
+<p> <b> P </b> = place aprés le curseur ce qui vien d'etre effacer </p>
+
+<p> <b> 2w </b> = deplacer le curceur de deux mots </p>
+<p> <b> 3w </b> = deplacer le curseur de trois mots </p>
+<p> <b> 0 = </b> mettre le curseur au debut de la ligne </p>
+
+<p> <b> r(x) </b> = remplacer le caractere sous le curseur par (x) </p>
+<p> <b> R </b> = remplacer plusieurs caractére a la fois </p>
+<p> <b> ce </b> = remplace le mots complet </p>
+
+<p> <b> y </b> = copier </p>
+<p> <b> p </b> = coller </p>
+
+<p> <b> u </b> = annuler la derniere ligne de code </p>
+<p> <b> U </b> = récuperer toute une ligne </p>
+
+<p> <b> G </b> = deplacer a la fin du fichier </p>
+<p> <b> gg </b> = deplacer au debut du fichier </p>
+<p> <b> CTRL-G </b> = affiche la position dans le fichier </p>
+<p> <b> (numeros de ligne) G </b> = se rendre a la ligne souhaiter </p>
+
+<p> <b> /(texte) </b> = pour rechercher le texte en question </p>
+<p> <b> n </b> = rechercher le meme texte </p>
+<p> <b> N </b> = rechercher le meme texte dans le sence contraire </p>
+<p> <b> ? au lieu de / </b> = pour rechercher une phrase a l'opposé </p>
+
+<p> <b> % </b> = pour se deplacer sur les "( ) , [ ] , { }" </p>
+<p> <b> :(numero),(numero)/ancien/nouveau/g </b> = remplace les mots voule par autre chose sur les ligne selectionner </p>
+<p> <b> :%s/ancien/nouveau/g </b> = remplacer tout les mots du fichier par d'autres </p>
+
+<p> <b> :W fichier </b> = enregistrer les modif du fichier </p>
+<p> <b> :! rm fichier </b> = effacer le fichier selectionner </p>
+
+<p> <b> v mouvement(direction) </b> = selection de ligne </p>
+<p> <b> :(text selectionner)w (fichier) </b> = enregistrer le fichier selectionner </p>
+<p> <b> :r (fichier) </b> = inserer le text enrigister </p>
+
+<p> <b> o </b> = ouvre une commande a la ligne et inser un texte </p>
+<p> <b> e </b> = aller a la fin du mot (appuiller sur a pour ajouter text) </p>
+
+<p> <b> :edit $HOME/.vimrc </b> = script de demarrage </p>
+
+              <h3> <b> <u> Aide </u> </b> </h3>
+<div> <p><a href="http://vim.rtorr.com/lang/fr_fr/"> Aide en ligne </a> </p> </div>
+          <div> <p> Help , f1 = aide vim </p> </div>
+  </body>
+
+</html>
